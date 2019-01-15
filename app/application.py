@@ -4,6 +4,7 @@ application.py
 """
 
 from flask import Flask
+from flask_cors import CORS
 
 def create_app(app_name='DIALECTICA_API'):  
     app = Flask(app_name)
